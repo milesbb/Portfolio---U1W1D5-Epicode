@@ -1,0 +1,322 @@
+html {
+    background-color: #b2b9bf;
+    width: 100%;
+    height: 100%;
+    padding: -10px;
+    margin: 0px;
+    font-family: 'Mingzat', sans-serif;
+}
+
+body {
+    width: 100%;
+    width: 100%;
+    padding: -10px;
+    margin: 0px;
+}
+
+.navigation {
+    background-color: #b2b9bf;
+    opacity: 0.8;
+    z-index: 5;
+    position: relative;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.navlink {
+    color: black;
+    font-size: 20px;
+    /* padding-left: 15%; */
+    transition: color 0.5s;
+}
+
+.linkbox {
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    background-color: #b2b9bf;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    transition: background-color 0.5s;
+}
+
+.linkbox:hover {
+    background-color: black;
+}
+
+.linkbox:hover .navlink{
+    color: white;
+}
+
+.nametext {
+    color: black;
+}
+
+.jobtitle {
+    font-size: 80px;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 85px;
+    font-weight: bold;
+    line-height: 0px;
+    margin-left: 10%;
+}
+
+.br {
+    margin-bottom: 0px;
+    
+}
+
+.contacttop {
+    text-align: right;
+    display: block;
+    position: absolute;
+    top: 13%;
+    margin-right: 10%;
+}
+
+.contacticon {
+    width: 8%;
+    padding: 2%;
+    /* position: relative; */
+    filter: grayscale(100%);
+    transition: grayscale();
+}
+
+.contacticon:hover {
+    filter: grayscale(0%);
+}
+
+.arrow {
+    width: 10%;
+    position: absolute;
+    margin-left: 10%;
+}
+
+.name {
+    font-size: 80px;
+    font-weight: bold;
+    text-align: right;
+    line-height: 10px;
+    margin-right: 10%;
+}
+
+.face {
+    overflow: hidden;
+    /* box-shadow: 6px 6px 10px lightgray; */
+    width: 30%;
+    margin: 5%;
+    margin-left: 10%;
+    margin-top: 45px;
+}
+
+.faceimg {
+    width: 100%;
+    display: block;
+    justify-items: center;
+}
+
+.maintext {
+    margin-left: 10%;
+    width: 80%;
+    margin-top: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.abouttitle {
+    margin-top: 15%;
+}
+
+h2 {
+    text-align: center;
+}
+
+.expandables {
+    margin-top: 0%;
+    
+}
+
+.expandable {
+    color: white;
+    background-color: #201f3d;
+    padding: 1%;
+    font-size: 20px;
+    width: 100%;
+    /* object-fit: fill; */
+    /* background-repeat: no-repeat; */
+    height: auto;
+    transition: background-color 1s;
+}
+
+.altercol {
+    background-color: #4f6375;
+}
+
+.lefttext {
+    text-align: left;
+    margin-left: 2%;
+}
+
+.righttext {
+    text-align: right;
+    margin-right: 3%;
+}
+
+.expandable:hover {
+    /* width: 100%;
+    height: 100%;
+    object-fit: fill; */
+    background-color: gray;
+}
+
+/* .backepicode {
+    transition: background-image 2s;
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    opacity: 0;
+} */
+
+/* .expandable:hover .backepicode {
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+} */
+/* 
+.backjonkoping {
+    background-image: url("");
+    transition: background-image 2s;
+    transition: background-color 2s;
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.backjonkoping:hover {
+    background-image: url("assets/ejonkoping.png");
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    background-size: contain;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.backculture {
+    background-image: url("");
+    transition: background-image 2s;
+    transition: background-color 2s;
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.backculture:hover {
+    background-image: url("assets/eculturehustle.png");
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    background-size: contain;
+    background-color: transparent;
+}
+
+.backpoole {
+    background-image: url("");
+    transition: background-image 2s;
+    transition: background-color 2s;
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.backpoole:hover {
+    background-image: url("assets/epoolegrammar.webp");
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    background-size: contain;
+    background-color: transparent;
+}
+
+.backuniq {
+    background-image: url("");
+    transition: background-image 2s;
+    transition: background-color 2s;
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.backuniq:hover {
+    background-image: url("assets/euniq.png");
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    background-size: contain;
+    background-color: transparent;
+} */
+
+.botpics {
+    width: 100%;
+    margin: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.botpic {
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 6px 6px 10px lightgray;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footerimage {
+   width: 100%;
+   margin-bottom: 0px;
+   position: relative;
+   bottom: -10px;
+   z-index: 2;
+}
+
+/* .bcontacticon {
+    width: 8%;
+    padding: 2%;
+    filter: grayscale(100%);
+    transition: grayscale();
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+}
+
+.bcontacticon:hover {
+    filter: grayscale(0%);
+}
+
+.bottomcontacts {
+    text-align: left;
+    display: block;
+    position: relative;
+    bottom: 0;
+    margin-left: 10%;
+} */
+
+/* .rainbow-text {
+    background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
+    text-align: center;
+    background-size: 800% 800%;
+    background-clip: text;
+    color: transparent;
+    font-size: 24px;
+    animation: rainbow 8s ease infinite;
+  } */
